@@ -2,6 +2,7 @@
 
 module Data.Text.Punycode.Encode (encode) where
 
+import           Control.Monad (when)
 import           Control.Monad.State hiding (state)
 import           Control.Monad.Writer
 import qualified Data.ByteString as BS
